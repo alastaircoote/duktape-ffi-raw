@@ -1,0 +1,15 @@
+[package]
+edition = "2018"
+name = "duktape_ffi_raw"
+version = "2.30.0"
+authors = ["Alastair Coote <rusting@alastair.is>"]
+links = "duktape"
+description = "A simple wrapper around the Duktape C library."
+readme = "readme.md"
+license = "MIT"
+
+[build-dependencies]
+bindgen = "0.49.0"
+
+[build-dependencies.cc]
+version = "1.0"
