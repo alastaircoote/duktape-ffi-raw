@@ -1,7 +1,7 @@
 [package]
 edition = "2018"
 name = "duktape_ffi_raw"
-version = "2.30.0"
+version = "2.40.0"
 authors = ["Alastair Coote <rusting@alastair.is>"]
 links = "duktape"
 description = "A simple wrapper around the Duktape C library."
