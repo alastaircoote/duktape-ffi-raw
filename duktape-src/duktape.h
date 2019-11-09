@@ -182,9 +182,9 @@
  * which Duktape snapshot was used.  Not available in the ECMAScript
  * environment.
  */
-#define DUK_GIT_COMMIT                    "d4f2cff1c592d70f58bab8e1bd85705174c02a58"
-#define DUK_GIT_DESCRIBE                  "v2.4.0"
-#define DUK_GIT_BRANCH                    "master"
+#define DUK_GIT_COMMIT                    "external"
+#define DUK_GIT_DESCRIBE                  "external"
+#define DUK_GIT_BRANCH                    "external"
 
 /* External duk_config.h provides platform/compiler/OS dependent
  * typedefs and macros, and DUK_USE_xxx config options so that
